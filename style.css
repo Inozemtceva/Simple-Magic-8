@@ -48,11 +48,11 @@
   text-align: center;
   margin: 0;
   color: var(--color-primary);
-  /*color: transparent;
+  //color: transparent;
   //background-color: white;
   //background-clip: text;
   animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
-  letter-spacing: 0.4rem;*/
+  letter-spacing: 0.4rem;
   }
 
   @media (max-width: 768px) {
