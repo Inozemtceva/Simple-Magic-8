@@ -19,34 +19,6 @@
   --color-quinary: #A2C4F5;
   */
 }
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-
-  .content {
-    margin: 20px;
-  }
-
-  h1.text_shadows {
-    font-size: 24px;
-  }
-
-  form {
-    margin: 20px auto;
-    max-width: 300px;
-  }
-
-  #generateAnswer {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  #placeToAnswer {
-    font-size: 24px;
-    margin-top: 20px;
-  }
-}
 
 body {
   min-height: 80vh;
@@ -197,4 +169,32 @@ form {
   display: flex;
   align-content: center;
   justify-content: center;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .content {
+    margin: 20px;
+  }
+
+  h1.text_shadows {
+    font-size: 24px;
+  }
+
+  form {
+    margin: 20px auto;
+    max-width: 300px;
+  }
+
+  #generateAnswer {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #placeToAnswer {
+    font-size: 24px;
+    margin-top: 20px;
+  }
 }
