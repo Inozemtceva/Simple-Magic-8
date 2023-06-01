@@ -1,7 +1,5 @@
 /* Global Styles */
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -11,37 +9,8 @@
   --color-tertiary: #f28b7d;
   --color-quaternary: #f07a6a;
   --color-quinary: #ee6352;
-  /*
-  --color-primary: #5192ED;
-  --color-secondary: #69A1F0;
-  --color-tertiary: #7EAEF2;
-  --color-quaternary: #90BAF5;
-  --color-quinary: #A2C4F5;
-  */
 }
 
-/* Mobile Styles */
-@media (max-width: 768px) {
-  .text_shadows {
-    font-size: calc(2rem + 3vw);
-  }
-  
-  form {
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-  
-  #generateAnswer {
-    font-size: 20px;
-  }
-  
-  #placeToAnswer {
-    font-size: 25px;
-  }
-}
-
-/* Common Styles */
 body {
   min-height: 80vh;
   font-family: canada-type-gibson, sans-serif;
@@ -84,29 +53,28 @@ body {
   10% {
     text-shadow: 3px 3px 0 var(--color-secondary);
   }
-  /* Rest of the keyframes... */
-}
-
-@keyframes move {
-  0% {
-    transform: translate(0px, 0px);
+  20% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
   }
-  /* Rest of the keyframes... */
-}
-
-form {
-  font-size: 25px;
-  font-family: 'Cinzel', serif;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  column-gap: 10px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-#generateAnswer {
-  font-size: 25px;
-  display: block;
-  margin: 0 auto;
-  font-family
+  30% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  40% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  50% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  70% {
+    text-shadow: 3px 3px 0 var(--
