@@ -46,35 +46,124 @@ body {
   letter-spacing: 0.4rem;
 }
 
+@media (max-width: 768px) {
+  /* Mobile Styles */
+  .text_shadows {
+    font-size: calc(2rem + 3vw);
+  }
+  
+  body {
+    font-size: 1rem;
+  }
+  
+  form {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  #generateAnswer {
+    font-size: 18px;
+  }
+  
+  #placeToAnswer {
+    font-size: 20px;
+  }
+}
+
 @keyframes shadows {
-  0% {
-    text-shadow: none;
+      0% {
+      text-shadow: none;
+    }
+    10% {
+      text-shadow: 3px 3px 0 var(--color-secondary);
+    }
+    20% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary);
+    }
+    30% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+    }
+    40% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    50% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    60% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    70% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+    }
+    80% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary);
+    }
+    90% {
+      text-shadow: 3px 3px 0 var(--color-secondary);
+    }
+    100% {
+      text-shadow: none;
+    }
+}
+
+@keyframes move {
+      0% {
+      transform: translate(0px, 0px);
+    }
+    40% {
+      transform: translate(-12px, -12px);
+    }
+    50% {
+      transform: translate(-12px, -12px);
+    }
+    60% {
+      transform: translate(-12px, -12px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+}
+
+form {
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
-  10% {
-    text-shadow: 3px 3px 0 var(--color-secondary);
+
+  #generateAnswer {
+    font-size: 25px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 120px;
+    
   }
-  20% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary);
+
+  #placeToAnswer {
+    font-size: 35px;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
-  30% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
-  }
-  40% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
-  }
-  50% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
-  }
-  60% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
-  }
-  70% {
-    text-shadow: 3px 3px 0 var(--
+
+
